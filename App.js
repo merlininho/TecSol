@@ -41,9 +41,9 @@ export function App() {
 
 export function App2() {
   return (
-    <View style={style.container}>
-      <Cadastro dark_light={1}/>
-    </View>
+    <NavigationContainer>
+      <App_navigation/>
+    </NavigationContainer>
   )
 }
-export default App
+export default App2
